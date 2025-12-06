@@ -46,6 +46,7 @@ body {
 }
 
 .hero-text p {
+    color : rgb(35, 36, 37);
     margin-top: 15px;
     font-size: 18px;
 }
@@ -230,4 +231,5 @@ body {
         flex-direction: column;
         gap: 20px;
     }
+
 }
