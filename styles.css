@@ -46,9 +46,10 @@ body {
 }
 
 .hero-text p {
+    font-weight: 400 ;
     color : rgb(13, 0, 255);
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .hero-buttons {
@@ -233,5 +234,6 @@ body {
     }
 
 }
+
 
 
