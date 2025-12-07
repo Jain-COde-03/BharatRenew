@@ -37,7 +37,7 @@ body {
     position: absolute;
     top: 28%;
     left: 50px;
-    width: 45%;
+    width: 40%;
 }
 
 .hero-text h1 {
@@ -45,12 +45,19 @@ body {
     font-weight: 700;
 }
 
-.hero-text p {
-    font-weight: 400 ;
-    color : rgb(13, 0, 255);
+.hero-text marquee{
+    width:80%;
+    padding: 10px;
+    background-color: #100e0e;
+    border: 1px solid #00fff2;
+    color: #00fff2;
+    font-weight: 500;
     margin-top: 15px;
     font-size: 20px;
+    text-shadow: 1px 1px 5px #07beb5;
+    border-radius: 1em;
 }
+
 
 .hero-buttons {
     display: flex;
@@ -232,8 +239,4 @@ body {
         flex-direction: column;
         gap: 20px;
     }
-
 }
-
-
-
